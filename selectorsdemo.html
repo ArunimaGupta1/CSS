@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>
+            Selectors Demo
+        </title>
+        <style>
+			/* element selector */
+            p {
+                color: darkmagenta;
+                text-align: center;
+                background-color: aqua
+            }
+			
+			/* id selector */
+            #btag{
+                color: cornflowerblue;
+            }
+			
+			/* class selector */
+            .myclass{
+                text-align: right;
+                color: fuchsia;
+				background-color: yellowgreen
+            }
+			
+            /*select an element with specific class attribute*/
+            b.mybtag{
+				color:darkturquoise;
+                background-color: bisque;
+            }
+            
+			/*select multiple elements at once*/
+            h2, h3, h4{ 
+                text-align: right;
+                color: brown;
+                background-color: aquamarine;
+            }
+			
+            /*universal selector
+            *{
+                text-align: center;
+                color: deeppink;
+            }*/
+			
+            /*descendant selector*/
+            div p{
+                color: darkorange;
+                background-color: darkviolet;
+            }
+			
+            /* child selector */
+            body > h4{
+               color: blue;
+               background-color: yellowgreen; 
+            }
+            div > p{
+               color: blue;
+               background-color: yellowgreen; 
+            }
+            /* attribute selector */
+            input[type="text"]{
+                color: crimson;
+            }
+        </style>
+    </head>
+    <body>
+       
+        <b id="btag">This is bold tag 1</b><br/>
+		<b class="mybtag">This is bold tag 2</b><br/>
+		<b>This is bold tag 3</b><br/>
+		<b>This is bold tag 4</b><br/>
+		
+		
+		
+		<p>This is paragraph 1</p>
+		<p>This is paragraph 2</p>
+        <p class="myclass">This is paragraph 3</p>
+        <p>This is paragraph 4</p>
+		<p>This is paragraph 5</p>
+        <h1>This heading 1</h1>
+        <h1 class="myclass">This heading 2</h1>
+        <h1>This heading 3</h1>
+        <h1>This heading 4</h1>
+        
+        <div>
+            <p>This paragraph is inside div tag</p>
+        </div>
+        <div>
+            <h5>This h5 is inside div tag</h5>
+            <p>This is p after h5</p>
+        </div>
+        <h2>This is h2</h2>
+        <h3>This is h3</h3>
+        <h4>This is h4</h4>
+        Enter First Name: <input type="text"/>
+        <br/>
+        EnterLast Name: <input type="text"/><br/>
+        Enter password: <input type="password"/>
+        <br/>
+        
+    </body>
+</html>

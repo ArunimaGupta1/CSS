@@ -1,0 +1,81 @@
+CSS - Cascading Style Sheet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+used to style the web page is easier way
+HTML tags are used to create web page
+attributes are used to add some effects, some additional features
+If same attribute value i need to apply for multiple HTML tags i will have to repeat the same
+so CSS will ease down this operation
+
+what css can do?
+    control 
+        color of text
+        style of font
+        how columns will be spacing and width in a table
+
+        many times the HTML tag will not have a specific attribute. that operation we can control through CSS
+
+   
+for applying CSS
+1. selector - the HTML tag where the style needs to be applied
+2. property - the attribute for which you want to set the value
+3. value    - the value to be set for the property
+
+selector{
+    property : value
+}
+
+example:
+h1 {
+     color: red;
+   }
+
+table{
+    border : 3px;
+}   
+
+when we need to apply any style we need to select the HTML tag
+to select the HTML tag we will use selector
+1. type selector
+2. id selector
+3. class selector
+4. multiple selector
+5. universal selector
+6. descendant selector
+7. child selector
+8. attribute selector
+
+how to add style?
+we will create html page and add CSS to it
+3 levels
+    1. inline
+    2. internal
+    3. external  
+
+cascading order:
+1. inline style : first preference    
+2. internal style
+3. external style
+4. browser default
+
+background-color
+background-image
